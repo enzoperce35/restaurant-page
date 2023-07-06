@@ -1,0 +1,4 @@
+# node_modules folder can get really big.
+# It is customary to add a .gitignore file to your project
+# so that you don’t have to sync the contents of node_modules to github
+node_modules
