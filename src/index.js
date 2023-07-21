@@ -1,12 +1,13 @@
-import _ from 'lodash';
+import {nav} from "./nav/nav.js"
+import {main} from "./main/main.js"
+import {footer} from "./footer/footer.js"
 
 function component() {
   const content = document.getElementById('content');
-  const element = document.createElement('p');
 
-  element.innerHTML = _.join(['HTML elements and data', 'are now can be loaded', 'through Javascript'], ' ');
-
-  content.appendChild(element)
+  content.appendChild(nav)
+  content.appendChild(main)
+  content.appendChild(footer)
 
   return content;
 }
