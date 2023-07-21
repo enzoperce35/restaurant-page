@@ -1,4 +1,10 @@
-import { generateChildElements } from "../helper";
+import { appendImages } from "../helper";
+import Facebook from "../images/icons/facebook.svg";
+import Twitter from "../images/icons/twitter.svg";
+import Instagram from "../images/icons/instagram.svg";
+import Youtube from "../images/icons/youtube.svg";
+import Pinterest from "../images/icons/pinterest.svg";
+import Search from "../images/icons/search-icon.svg";
 
 //nav top
 const navTop = document.createElement('div');
@@ -15,8 +21,10 @@ navTop.appendChild(address)
 //links
 const links = document.createElement('ul');
 links.id = 'links'
-const contents = ['.', '.', '.', '.', '.', '.']
-generateChildElements('li', links, contents)
+
+const images = [Facebook, Twitter, Instagram, Youtube, Pinterest]
+appendImages('li', links, images)
+
 navTop.appendChild(links)
 
 
@@ -24,10 +32,15 @@ navTop.appendChild(links)
 const search = document.createElement('span');
 search.id = 'search'
 
-const input  = document.createElement('input');
+const input = document.createElement('input');
 input.type = 'text'
 
+const searchIcon = new Image()
+searchIcon.src = Search
+
 search.appendChild(input)
+search.appendChild(searchIcon)
+
 navTop.appendChild(search)
 
 

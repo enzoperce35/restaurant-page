@@ -1,3 +1,5 @@
+import DeliveryLogo from "../images/icons/food-delivery.png"
+
 const side = document.createElement('aside')
 
 // side1
@@ -23,8 +25,12 @@ const side3 = document.createElement('span')
 const para3 = document.createElement('p')
 const sideLogoCont = document.createElement('span')
 
+const logo = new Image()
+logo.src = DeliveryLogo
+
 para3.innerHTML = "GRAB PANDA"
 
+sideLogoCont.appendChild(logo)
 side3.appendChild(sideLogoCont)
 side3.appendChild(para3)
 
