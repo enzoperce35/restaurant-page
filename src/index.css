@@ -1,5 +1,3 @@
-@import url("reset.css");
-
 #content {
   height: 100%;
   width: 100vw;
@@ -107,7 +105,6 @@ aside img {
 }
 
 article {
-  background-image: url("/src/restaurant-food.jpg");
   background-size: 100% 100%;
 }
 

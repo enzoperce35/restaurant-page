@@ -4,3 +4,9 @@
 
 ### Prospected webpage layout with basic css styling
 ![alt text](project_screenshots/restaurant_page_basic_css.png)
+
+### HTML elements bundled and loaded by JS's webpack
+![alt text](project_screenshots/webpack_bundled_html_loading.png)
+
+### CSS bundled and loaded by JS's webpack
+![alt text](project_screenshots/webpack_bundled_css_loading.png)

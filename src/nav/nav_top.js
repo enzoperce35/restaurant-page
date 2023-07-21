@@ -15,7 +15,7 @@ navTop.appendChild(address)
 //links
 const links = document.createElement('ul');
 links.id = 'links'
-const contents = ['image', 'image', 'image', 'image', 'image', 'image']
+const contents = ['.', '.', '.', '.', '.', '.']
 generateChildElements('li', links, contents)
 navTop.appendChild(links)
 

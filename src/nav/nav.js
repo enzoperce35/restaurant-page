@@ -5,8 +5,8 @@ const nav = document.createElement('nav')
 const navCont = document.createElement('div')
 
 navCont.appendChild(navTop)
-navCont.appendChild(navBottom)
 
 nav.appendChild(navCont)
+nav.appendChild(navBottom)
 
 export {nav}
