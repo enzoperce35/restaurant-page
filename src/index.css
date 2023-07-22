@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Branda';
+  src: url('./fonts/Branda-yolq.ttf') format('trueType');
+}
+
+@font-face {
+  font-family: 'Creamy_Sugar';
+  src: url('./fonts/CreamySugar-gxnGR.ttf') format('trueType');
+}
+
 #content {
   height: 100%;
   width: 100vw;
@@ -41,9 +51,10 @@ nav {
 }
 
 .nav-bottom {
-  background-color: beige;
   justify-content: center;
   display: inline-flex;
+  font-family: 'Branda';
+  background-color: beige;
 }
 
 .nav-bottom > :last-child {
@@ -80,8 +91,8 @@ aside {
   font-size: 1.7vh;
 }
 
-.p-header {
-  color: white;
+.p-header:not(footer h3) {
+  color: rgb(98, 138, 179);
 }
 
 aside :nth-child(3),
@@ -119,8 +130,10 @@ footer {
 }
 
 footer h3 {
+  font-family: 'Creamy_Sugar';
   padding-top: 2vh;
   font-size: 3.2vh;
+  color: darkred;
 }
 
 footer > :last-child {
