@@ -163,3 +163,15 @@ footer em {
 footer li {
   font-size: 1.4vh;
 }
+
+/* SubPages */
+.newContent {
+  font-size: 3vh;
+  font-weight: bold;
+  color: peru;
+}
+
+.newContent em {
+  font-size: 10vh;
+  color:maroon;
+}

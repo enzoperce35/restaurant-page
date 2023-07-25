@@ -4,8 +4,10 @@ import {footer} from "./footer/footer.js"
 import "./reset.css"
 import "./index.css"
 
+const content = document.createElement('div');
+content.id = 'content'
+
 function component() {
-  const content = document.getElementById('content');
 
   content.appendChild(nav)
   content.appendChild(main)

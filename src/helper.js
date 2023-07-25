@@ -6,6 +6,8 @@ function generateChildElements(tag, parent, contents) {
 
     el.innerHTML = content
 
+    el.id = content
+
     parent.appendChild(el);
   }
 }
@@ -25,4 +27,24 @@ function appendImages(tag, parent, contents) {
   }
 }
 
-export { generateChildElements, appendImages }
+function wipeHomeContents() {
+  const homeContents = document.getElementById('content')
+
+  homeContents.querySelectorAll('*').forEach(n => n.remove());
+
+  homeContents.style = "display: block; background-color: unset"
+
+  return homeContents
+}
+
+function setNewContents(newContent) {
+  const contentContainer = document.createElement('div')
+
+  contentContainer.className = 'newContent'
+
+  contentContainer.appendChild(newContent)
+
+  return contentContainer
+}
+
+export { generateChildElements, appendImages, wipeHomeContents, setNewContents }
