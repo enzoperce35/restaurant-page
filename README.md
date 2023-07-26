@@ -13,7 +13,7 @@ A 'TOP' Javascript course project which covers Javascript modules and the webpac
 ![alt text](project_screenshots/webpack_bundled_css_loading.png)
 
 ### Images and Fonts bundled and loaded by JS's webpack
-![alt text](project_screenshots/webpack_applied_fonts_and_images.png)
+![alt text](project_screenshots/webpack_fonts_and_images.png)
 
 ## JS lessons covered
 - Node Package Manager (npm)
@@ -21,10 +21,13 @@ A 'TOP' Javascript course project which covers Javascript modules and the webpac
 - ES6 module
 
 ## Extra Learnings
-- Easy updating of app's Github live preview using webpacks bundled subfolder(dist)
+- Generating and updating Github live preview using Webpack's bundled subfolder(dist)
 
 ## Reflection
 - Web pack and ES6 module is convenient to use and it has an easy to understand documentation.
 
 ## Project Link
 - https://www.theodinproject.com/lessons/javascript-restaurant-page
+
+## Live Preview
+- https://enzoperce35.github.io/restaurant-page/
