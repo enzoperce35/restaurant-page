@@ -20,5 +20,11 @@ A 'TOP' Javascript course project which covers Javascript modules and the webpac
 - Webpack
 - ES6 module
 
+## Extra Learnings
+- Easy updating of app's Github live preview using webpacks bundled subfolder(dist)
+
 ## Reflection
 - Web pack and ES6 module is convenient to use and it has an easy to understand documentation.
+
+## Project Link
+- https://www.theodinproject.com/lessons/javascript-restaurant-page
